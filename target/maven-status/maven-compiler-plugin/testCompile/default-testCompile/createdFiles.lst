@@ -1,0 +1,7 @@
+com\eCommerceapp\utilities\Reporting.class
+com\eCommerceapp\testcase\Tc_LoginTest_001.class
+com\eCommerceapp\utilities\XLutils.class
+com\eCommerceapp\testcase\BaseClass.class
+com\eCommerceapp\testcase\Tc_LoginDDT_002.class
+com\eCommerceapp\utilities\Readconfig.class
+com\eCommerceapp\pageobject\Loginpage.class
