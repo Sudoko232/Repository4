@@ -12,7 +12,7 @@ public class Tc_LoginDDT_002 extends BaseClass
 {
 
 	@Test(dataProvider="LoginData")
-	public void loginDDT(String user, String pass)
+	public void loginDDT(String user, String pass) throws InterruptedException
 	{
 		Loginpage lp= new Loginpage(driver);
 		lp.Sendusername(user);

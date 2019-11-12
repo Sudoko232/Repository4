@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="eCommerceapp" duration-ms="25991" started-at="2019-11-11T13:15:15Z" finished-at="2019-11-11T13:15:41Z">
+  <suite name="eCommerceapp" duration-ms="39129" started-at="2019-11-12T09:46:45Z" finished-at="2019-11-12T09:47:24Z">
     <groups>
     </groups>
-    <test name="eCommerceapp Test" duration-ms="25991" started-at="2019-11-11T13:15:15Z" finished-at="2019-11-11T13:15:41Z">
+    <test name="eCommerceapp Test" duration-ms="39129" started-at="2019-11-12T09:46:45Z" finished-at="2019-11-12T09:47:24Z">
       <class name="com.eCommerceapp.testcase.Tc_LoginTest_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.eCommerceapp.testcase.Tc_LoginTest_001@35f983a6]" name="setup" is-config="true" duration-ms="23700" started-at="2019-11-11T18:45:15Z" finished-at="2019-11-11T18:45:39Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.eCommerceapp.testcase.Tc_LoginTest_001@35f983a6]" name="setup" is-config="true" duration-ms="21765" started-at="2019-11-12T15:16:45Z" finished-at="2019-11-12T15:17:07Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.eCommerceapp.testcase.Tc_LoginTest_001@35f983a6]" name="loginTest" duration-ms="995" started-at="2019-11-11T18:45:39Z" finished-at="2019-11-11T18:45:40Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.eCommerceapp.testcase.Tc_LoginTest_001@35f983a6]" name="loginTest" duration-ms="16103" started-at="2019-11-12T15:17:07Z" finished-at="2019-11-12T15:17:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.eCommerceapp.testcase.Tc_LoginTest_001@35f983a6]" name="teardown" is-config="true" duration-ms="957" started-at="2019-11-11T18:45:40Z" finished-at="2019-11-11T18:45:41Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.eCommerceapp.testcase.Tc_LoginTest_001@35f983a6]" name="teardown" is-config="true" duration-ms="962" started-at="2019-11-12T15:17:23Z" finished-at="2019-11-12T15:17:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -13,7 +13,7 @@ public class Tc_LoginTest_001 extends BaseClass
 {
 
 	@Test
-	public void loginTest() throws IOException
+	public void loginTest() throws IOException, InterruptedException
 	{
 		//driver.get(baseURL);
 		logger.info("Url launched");

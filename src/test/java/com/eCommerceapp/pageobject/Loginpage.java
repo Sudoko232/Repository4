@@ -42,8 +42,9 @@ public class Loginpage {
 	WebElement Signout2;
 	
 	
-	public void Sendusername(String iusername)
+	public void Sendusername(String iusername) throws InterruptedException
 	{
+		Thread.sleep(15000);
 		WebDriverWait wait = new WebDriverWait(driver,30);	
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input")));
 		txtusername.sendKeys(iusername);
@@ -64,8 +65,9 @@ public class Loginpage {
 		Signuplogin.click();
 	}
 	
-	public void Signout1()
+	public void Signout1() 
 	{
+		
 		WebDriverWait wait = new WebDriverWait(driver,30);	
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='container']/div/div[1]/div[1]/div[2]/div[3]/div/div/div/div")));
 		Actions actions = new Actions(driver);
