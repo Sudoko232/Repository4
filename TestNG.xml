@@ -10,8 +10,9 @@
   <test name="eCommerceapp Test" >
   <parameter name="browser" value="chrome" />
     <classes>
-     <class name="com.eCommerceapp.testcase.Tc_LoginTest_001" />  
-    <!-- <class name="com.eCommerceapp.testcase.Tc_LoginDDT_002" /> --> 
+    <!--   <class name="com.eCommerceapp.testcase.Tc_LoginTest_001" />  
+           <class name="com.eCommerceapp.testcase.Tc_LoginDDT_002" /> --> 
+    <class name="com.eCommerceapp.testcase.Tc_LoginOrderitem" /> 
     </classes>
   </test>
 </suite>

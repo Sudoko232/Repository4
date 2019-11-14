@@ -5,3 +5,5 @@ com\eCommerceapp\testcase\BaseClass.class
 com\eCommerceapp\testcase\Tc_LoginDDT_002.class
 com\eCommerceapp\utilities\Readconfig.class
 com\eCommerceapp\pageobject\Loginpage.class
+com\eCommerceapp\testcase\Tc_LoginOrderitem.class
+com\eCommerceapp\pageobject\Orderitem.class

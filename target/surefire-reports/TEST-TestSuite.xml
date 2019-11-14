@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="16.102" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="50.982" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\manohar.a.ramaraj\eclipse-workspaceflipkart\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2726600649832397227.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\manohar.a.ramaraj\eclipse-workspaceflipkart\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7482664229432073083.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_221/bin/server;C:/Program Files/Java/jre1.8.0_221/bin;C:/Program Files/Java/jre1.8.0_221/lib/amd64;C:\Users\manohar.a.ramaraj\AppData\Local\Programs\Python\Python37-32\;C:\Users\manohar.a.ramaraj\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_201C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Apache Maven Telus\apache-maven-3.1.1\apache-maven-3.1.1\bin;C:\Oracle\instantclient_18_5_64;C:\Users\manohar.a.ramaraj\Downloads\chromedriver_win32 (1);C:\Users\manohar.a.ramaraj\AppData\Local\Programs\Python\Python37-32\python.exe;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\Users\manohar.a.ramaraj\AppData\Local\Microsoft\WindowsApps;;C:\Users\manohar.a.ramaraj\Downloads\eclipse-java-oxygen-3a-win32-x86_64(1)\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -43,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -60,5 +60,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="loginTest" classname="com.eCommerceapp.testcase.Tc_LoginTest_001" time="16.102"/>
+  <testcase name="loginTest" classname="com.eCommerceapp.testcase.Tc_LoginOrderitem" time="15.563"/>
+  <testcase name="Searchitem" classname="com.eCommerceapp.testcase.Tc_LoginOrderitem" time="35.419"/>
+  <testcase name="Searchitem" classname="com.eCommerceapp.testcase.Tc_LoginOrderitem" time="35.352"/>
 </testsuite>

@@ -1,3 +1,7 @@
-2019-11-12 15:17:07 INFO  eCommerceapp:19 - Url launched
-2019-11-12 15:17:23 INFO  eCommerceapp:26 - Logged into application
-2019-11-12 15:17:23 INFO  eCommerceapp:32 - Tc passed
+2019-11-14 16:29:49 INFO  eCommerceapp:19 - Url launched
+2019-11-14 16:30:21 INFO  eCommerceapp:34 - Item to be searched entered
+2019-11-14 16:30:36 INFO  eCommerceapp:36 - Searched Item Displayed
+2019-11-14 16:30:41 INFO  eCommerceapp:38 - Product cleared from search tab
+2019-11-14 16:30:56 INFO  eCommerceapp:34 - Item to be searched entered
+2019-11-14 16:31:11 INFO  eCommerceapp:36 - Searched Item Displayed
+2019-11-14 16:31:16 INFO  eCommerceapp:38 - Product cleared from search tab

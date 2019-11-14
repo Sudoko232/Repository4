@@ -36,8 +36,8 @@ public class BaseClass {
 	WebDriver driver;
 	public static Logger logger;
 	
-	
-	@Parameters("browser")
+	//commended for executing another tc
+	@Parameters("browser") 
 	@BeforeClass
 	public void setup(String br)
 	{
@@ -54,7 +54,7 @@ public class BaseClass {
 		System.setProperty("webdriver.chrome.driver", readconfig.getchromepath());
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
-		}
+  }
 		else if(br.equals("ie"))
 		{
 			System.setProperty("webdriver.ie.driver", readconfig.getiepath());
@@ -67,7 +67,7 @@ public class BaseClass {
 	@AfterClass
 	public void teardown()
 	{
-		driver.quit();
+		//driver.quit();
 	}
 	
 	public void captureScreen(WebDriver driver, String tname) throws IOException

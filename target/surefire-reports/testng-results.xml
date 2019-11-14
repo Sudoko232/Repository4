@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="eCommerceapp" duration-ms="39129" started-at="2019-11-12T09:46:45Z" finished-at="2019-11-12T09:47:24Z">
+  <suite name="eCommerceapp" duration-ms="105127" started-at="2019-11-14T10:59:31Z" finished-at="2019-11-14T11:01:16Z">
     <groups>
     </groups>
-    <test name="eCommerceapp Test" duration-ms="39129" started-at="2019-11-12T09:46:45Z" finished-at="2019-11-12T09:47:24Z">
-      <class name="com.eCommerceapp.testcase.Tc_LoginTest_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.eCommerceapp.testcase.Tc_LoginTest_001@35f983a6]" name="setup" is-config="true" duration-ms="21765" started-at="2019-11-12T15:16:45Z" finished-at="2019-11-12T15:17:07Z">
+    <test name="eCommerceapp Test" duration-ms="105127" started-at="2019-11-14T10:59:31Z" finished-at="2019-11-14T11:01:16Z">
+      <class name="com.eCommerceapp.testcase.Tc_LoginOrderitem">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.eCommerceapp.testcase.Tc_LoginOrderitem@edf4efb]" name="setup" is-config="true" duration-ms="17353" started-at="2019-11-14T16:29:31Z" finished-at="2019-11-14T16:29:49Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.eCommerceapp.testcase.Tc_LoginTest_001@35f983a6]" name="loginTest" duration-ms="16103" started-at="2019-11-12T15:17:07Z" finished-at="2019-11-12T15:17:23Z">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.eCommerceapp.testcase.Tc_LoginOrderitem@edf4efb]" name="loginTest" duration-ms="15562" started-at="2019-11-14T16:29:49Z" finished-at="2019-11-14T16:30:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.eCommerceapp.testcase.Tc_LoginTest_001@35f983a6]" name="teardown" is-config="true" duration-ms="962" started-at="2019-11-12T15:17:23Z" finished-at="2019-11-12T15:17:24Z">
+        <test-method status="PASS" signature="Searchitem(java.lang.String)[pri:2, instance:com.eCommerceapp.testcase.Tc_LoginOrderitem@edf4efb]" name="Searchitem" duration-ms="35419" started-at="2019-11-14T16:30:05Z" data-provider="Products" finished-at="2019-11-14T16:30:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchitem -->
+        <test-method status="PASS" signature="Searchitem(java.lang.String)[pri:2, instance:com.eCommerceapp.testcase.Tc_LoginOrderitem@edf4efb]" name="Searchitem" duration-ms="35351" started-at="2019-11-14T16:30:41Z" data-provider="Products" finished-at="2019-11-14T16:31:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Television]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchitem -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.eCommerceapp.testcase.Tc_LoginOrderitem@edf4efb]" name="teardown" is-config="true" duration-ms="0" started-at="2019-11-14T16:31:16Z" finished-at="2019-11-14T16:31:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.eCommerceapp.testcase.Tc_LoginTest_001 -->
+      </class> <!-- com.eCommerceapp.testcase.Tc_LoginOrderitem -->
     </test> <!-- eCommerceapp Test -->
   </suite> <!-- eCommerceapp -->
 </testng-results>

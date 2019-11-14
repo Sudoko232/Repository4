@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [eCommerceapp]">
-  <parameter name="browser" value="chrome"/>
-  <listeners>
-    <listener class-name="com.eCommerceapp.utilities.Reporting"/>
-  </listeners>
-  <test name="eCommerceapp Test(failed)">
-    <parameter name="browser" value="chrome"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.eCommerceapp.testcase.Tc_LoginDDT_002">
+      <class name="com.eCommerceapp.testcase.Tc_LoginOrderitem">
         <methods>
           <include name="setup"/>
-          <include name="loginDDT" invocation-numbers="0 1"/>
+          <include name="Searchitem"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.eCommerceapp.testcase.Tc_LoginDDT_002 -->
+      </class> <!-- com.eCommerceapp.testcase.Tc_LoginOrderitem -->
     </classes>
-  </test> <!-- eCommerceapp Test(failed) -->
-</suite> <!-- Failed suite [eCommerceapp] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
